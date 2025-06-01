@@ -32,11 +32,11 @@ pip install -r requirements.txt                       # Install ollama (if neede
 Generate a TypeScript course on a subject like "React Hooks":
 
 ```bash
-python3 main.py . . "React Hooks"
+python3 src/main.py . . "React Hooks"
 ```
 
 Specify a custom output file:
 
 ```bash
-python3 main.py --output hooks-course.md "React Hooks"
+python3 src/main.py --output hooks-course.md "React Hooks"
 ```

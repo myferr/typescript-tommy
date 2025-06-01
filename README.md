@@ -15,10 +15,17 @@ Powered by [Ollama](https://ollama.com/) and a local model (`qwen2.5-coder`), th
 Clone this repository and ensure you have [Ollama](https://ollama.com/) installed with a compatible model:
 
 ```bash
+ollama pull qwen2.5-coder:latest
+```
+> Install Ollama model
+
+```bash
 git clone https://github.com/myferr/typescript-tommy  # Clone repository
 cd typescript-tommy                                   # Navigate to directory
 pip install -r requirements.txt                       # Install ollama (if needed)
 ```
+> Install `typescript-tommy`
+
 
 ## Usage
 
